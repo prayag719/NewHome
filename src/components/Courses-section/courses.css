@@ -1,0 +1,53 @@
+.single__course__item {
+  padding: 10px;
+}
+
+.course__img img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the image container */
+  overflow: hidden; /* Hide any content that exceeds the fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+  max-height: 100%; /* Ensure the image doesn't exceed the height of its container */
+  object-fit: cover; /* Maintain aspect ratio while covering its container */
+  border-radius: 10px;
+  transition: transform 0.3s;
+  border: 2px solid black; /* Add a black border around the image */
+  box-sizing: border-box;
+
+}
+.course__img:hover img {
+  transform: scale(1.05); /* Increase the scale to 1.1 on hover */
+}
+
+
+.enroll a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #6c1386;
+}
+
+.lesson,
+.students,
+.rating {
+  font-size: 0.9rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.lesson i,
+.students i,
+.rating i {
+  font-weight: 400;
+}
+
+.course__title {
+  line-height: 2rem;
+}
+
+.course__top__left h2 {
+  font-weight: 600;
+}
